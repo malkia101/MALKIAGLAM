@@ -67,3 +67,7 @@ main {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.product-card button:hover {
+    background-color: rgb(35, 161, 161);
+}
