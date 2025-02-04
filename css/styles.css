@@ -3,11 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgba(16, 230, 230, 0.212);
+    background-color: rgba(16, 230, 230, 0.164);
 }
 
 header {
-    background-color: rgba(22, 247, 224, 0.438);
+    background-color: rgba(22, 247, 225, 0.253);
     padding: 1em;
 }
 
@@ -33,12 +33,13 @@ main {
 .hero {
     text-align: center;
     padding: 10px 0;
-    background-color: rgba(0, 255, 255, 0.171);
-    color: rgba(38, 97, 121, 0.76);
+    background-color: rgba(0, 255, 255, 0.137);
+    color: rgba(38, 98, 121, 0.836);
 }
 
 /* product grid */
 .products .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
 }
