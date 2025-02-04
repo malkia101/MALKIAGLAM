@@ -10,3 +10,9 @@ header {
     background-color: rgba(22, 247, 224, 0.438);
     padding: 1em;
 }
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
