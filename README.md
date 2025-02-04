@@ -1,7 +1,7 @@
 # MalkiaGlam
 
 MalkiaGlam is an e-commerce platform that provides beauty products, fashion items, and salon services like nail appointments and hair braiding. It combines online shopping with a simple and effective booking system for beauty treatments. This platform has been created by 
-## Queen Njoki Waweru
+### Queen Njoki Waweru
 
 ## Features
 - Browse beauty products (e.g., Hair Gel, Nail Polish).
@@ -28,8 +28,8 @@ MalkiaGlam is an e-commerce platform that provides beauty products, fashion item
 - User authentication and profile management.
 - Payment integration for product purchases.
 
-## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+### Contact Information
+For questions or issues, contact queen.waweru@student.moringaschool.com
+
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+This project is licensed under the MIT License.
