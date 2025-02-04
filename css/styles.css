@@ -46,9 +46,24 @@ main {
 }
 
 .product-card {
-    background-color: aqua;
+    background-color: rgba(122, 247, 247, 0.616);
     border-radius: 8px;
     padding: 1rem;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card button {
+    margin-top: 2rem;
+    padding: .5rem;
+    background-color: rgba(24, 226, 226, 0.705);
+    color: rgba(33, 35, 36, 0.938);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
