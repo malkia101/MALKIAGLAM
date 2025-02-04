@@ -22,6 +22,22 @@
             <h1>Beauty Services</h1>
             <p>Book an appointment for your next beauty treatment.</p>
 
+            <form id="booking-form">
+                <label for="service">Choose a Service:</label>
+                <select id="service" required>
+                    <option value="Nail Care">Nail Care</option>
+                    <option value="Hair Braids">Hair Braids</option>
+                    <option value="Makeup">Makeup</option>
+                </select>
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" required>
+                
+                <label for="time">Select Time:</label>
+                <input type="time" id="time" required>
+
+                <button type="submit">Book Appointment</button>
+            </form>
+
 
         </section>
     </main>
