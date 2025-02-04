@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(16, 230, 230, 0.212);
+}
+
+header {
+    background-color: rgba(22, 247, 224, 0.438);
+    padding: 1em;
+}
