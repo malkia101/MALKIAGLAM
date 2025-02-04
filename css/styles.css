@@ -35,7 +35,7 @@ main {
     padding: 2rem;
     border-radius: 8px;
     background-color: rgba(0, 255, 255, 0.137);
-    color: rgba(38, 98, 121, 0.836);
+    /* color: rgba(38, 98, 121, 0.836); */
 }
 
 /* product grid */
@@ -70,4 +70,33 @@ main {
 
 .product-card button:hover {
     background-color: rgb(35, 161, 161);
+}
+
+.services h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.services p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 255, 0.123);
+    max-width: 400px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
