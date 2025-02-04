@@ -16,3 +16,7 @@ header nav ul {
     display: flex;
     justify-content: center;
 }
+
+header nav ul li {
+    margin: 0 15px;
+}
