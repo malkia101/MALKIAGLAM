@@ -119,4 +119,16 @@ main {
 
 #booking-form button:hover {
     background-color: rgba(0, 255, 255, 0.473);
+    color: rgb(30, 37, 37);
+}
+
+/* footer style */
+footer {
+    background-color: rgb(68, 252, 252);
+    color: rgba(0, 0, 0, 0.822);
+    text-align: center;
+    padding: .5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
