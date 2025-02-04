@@ -20,3 +20,25 @@ header nav ul {
 header nav ul li {
     margin: 0 15px;
 }
+header nav ul li a {
+    color: rgb(57, 116, 116);
+    text-decoration: double;
+}
+
+main {
+    padding: 2em;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(0, 255, 255, 0.171);
+    color: rgba(38, 97, 121, 0.76);
+}
+
+/* product grid */
+.products .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
