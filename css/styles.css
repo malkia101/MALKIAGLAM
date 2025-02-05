@@ -91,6 +91,17 @@ main {
     justify-content: center;
 }
 
+.service-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 15px;
+    padding: 20px;
+    align-items: center;
+    background-color: rgba(172, 255, 255, 0.534);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* form styles */
 #booking-form {
     display: flex;
