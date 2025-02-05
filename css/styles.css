@@ -12,7 +12,8 @@ header {
 }
 
 header .logo img {
-    height: 50px;
+    /* height: 50px; */
+    width: 5%;
 }
 header nav ul {
     list-style: none;
@@ -50,7 +51,7 @@ main {
 }
 
 .product-card {
-    background-color: rgba(122, 247, 247, 0.616);
+    background-color: rgba(122, 247, 247, 0.322);
     border-radius: 8px;
     padding: 1rem;
     text-align: center;
@@ -82,11 +83,19 @@ main {
 }
  
 /* about page */
+.about-us h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
 
 
 /* services page */
 .services h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #333;
     margin-bottom: 1rem;
     display: flex;
