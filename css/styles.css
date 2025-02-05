@@ -83,12 +83,36 @@ main {
 }
  
 /* about page */
+.about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
 .about-us h1 {
     font-size: 2rem;
     color: #333;
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
+}
+.about-us .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us img {
+    width: 45%;
+    height: 400px;
+    max-width: 600px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+  .about-us p {
+      font-size: 18px;
+      margin-top: 20px;
 }
 
 
