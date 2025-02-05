@@ -72,6 +72,11 @@ main {
 .product-card img {
     width: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-card img:hover{
+    transform: scale(1.1);
 }
 
 .product-card button {
@@ -163,6 +168,11 @@ main {
 .service-item img {
     width: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.service-item img:hover {
+    transform: scale(1.1);
 }
 
 /* form styles */
