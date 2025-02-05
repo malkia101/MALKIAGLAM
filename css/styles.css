@@ -30,6 +30,11 @@ header nav ul li a {
     text-decoration: double;
 }
 
+nav ul li a:hover {
+    color: #38b9b9;
+    text-decoration: underline;
+}
+
 main {
     padding: 2em;
 }
@@ -44,10 +49,15 @@ main {
 }
 
 /* product grid */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
 .products .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1em;
+    gap: 20px;
+    padding: 0 20px;
 }
 
 .product-card {
@@ -154,6 +164,7 @@ main {
 /* form styles */
 #form {
     margin-top: 100px;
+    padding-bottom: 5rem;
 }
 #booking-form {
     display: flex;
