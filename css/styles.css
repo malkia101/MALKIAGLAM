@@ -12,13 +12,14 @@ header {
 }
 
 header .logo img {
-    /* height: 50px; */
     width: 5%;
 }
+
 header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
@@ -45,7 +46,6 @@ main {
     padding: 2rem;
     border-radius: 8px;
     background-color: rgba(0, 255, 255, 0.137);
-    /* color: rgba(38, 98, 121, 0.836); */
 }
 
 /* product grid */
@@ -53,6 +53,7 @@ main {
     padding: 50px 20px;
     text-align: center;
 }
+
 .products .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -91,7 +92,7 @@ main {
 .products h2 {
     text-align: center;
 }
- 
+
 /* about page */
 .about-us {
     max-width: 1200px;
@@ -99,6 +100,7 @@ main {
     padding: 40px;
     text-align: center;
 }
+
 .about-us h1 {
     font-size: 2rem;
     color: #333;
@@ -106,6 +108,7 @@ main {
     display: flex;
     justify-content: center;
 }
+
 .about-us .image-container {
     display: flex;
     justify-content: center;
@@ -120,11 +123,11 @@ main {
     border-radius: 8px;
     object-fit: cover;
 }
-  .about-us p {
-      font-size: 18px;
-      margin-top: 20px;
-}
 
+.about-us p {
+    font-size: 18px;
+    margin-top: 20px;
+}
 
 /* services page */
 .services h1 {
@@ -161,11 +164,13 @@ main {
     width: 100%;
     object-fit: cover;
 }
+
 /* form styles */
 #form {
     margin-top: 100px;
     padding-bottom: 5rem;
 }
+
 #booking-form {
     display: flex;
     flex-direction: column;
@@ -179,7 +184,8 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#booking-form input, select {
+#booking-form input,
+select {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #75ebe1de;
@@ -209,4 +215,69 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Media Queries  */
+
+/* For tablets */
+@media (max-width: 768px) {
+    header .logo img {
+        width: 10%;
+    }
+
+    .products .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .about-us .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us img {
+        width: 80%;
+        height: auto;
+    }
+
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 2em;
+    }
+
+    #booking-form {
+        max-width: 300px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    header .logo img {
+        width: 15%;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .products .product-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .about-us img {
+        width: 100%;
+    }
+
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 1em;
+    }
+
+    #booking-form {
+        max-width: 250px;
+    }
 }
