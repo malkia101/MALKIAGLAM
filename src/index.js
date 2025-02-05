@@ -21,3 +21,40 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// scripts.js (linked to services.html)
+document.addEventListener("DOMContentLoaded", function () {
+    const bookingForm = document.getElementById("booking-form");
+
+    bookingForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        // Get form values
+        const service = document.getElementById("service").value;
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const date = document.getElementById("date").value;
+        const time = document.getElementById("time").value;
+
+        // Simple validation
+        if (!name || !email || !date || !time) {
+            alert("Please fill out all fields.");
+            return;
+        }
+
+        // Store appointment in local storage
+        const appointment = {
+            service,
+            name,
+            email,
+            date,
+            time,
+        };
+        let appointments = JSON.parse(localStorage.getItem("appointments")) || [];
+        appointments.push(appointment);
+        localStorage.setItem("appointments", JSON.stringify(appointments));
+
+        alert("Appointment booked successfully!");
+        bookingForm.reset();
+    });
+});
