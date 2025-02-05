@@ -1,9 +1,9 @@
 /* General Styles */
-* General Styles */ body {
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgba(16, 230, 230, 0.164);
+    background-color: rgba(177, 240, 240, 0.164);
 }
 
 header {
@@ -59,7 +59,7 @@ main {
 
 .product-card img {
     width: 100%;
-    height: auto;
+    height: fit-content;
 }
 
 .product-card button {
@@ -70,12 +70,21 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 
 .product-card button:hover {
     background-color: rgb(35, 161, 161);
 }
 
+.products h2 {
+    text-align: center;
+}
+ 
+/* about page */
+
+
+/* services page */
 .services h1 {
     font-size: 2.5rem;
     color: #333;
