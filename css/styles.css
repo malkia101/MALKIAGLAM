@@ -91,18 +91,25 @@ main {
     justify-content: center;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12em;
+}
+
 .service-item {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 15px;
-    padding: 20px;
-    align-items: center;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
     background-color: rgba(172, 255, 255, 0.534);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* form styles */
+#form {
+    margin-top: 100px;
+}
 #booking-form {
     display: flex;
     flex-direction: column;
