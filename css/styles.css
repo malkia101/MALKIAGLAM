@@ -60,7 +60,7 @@ main {
 
 .product-card img {
     width: 100%;
-    height: fit-content;
+    object-fit: cover;
 }
 
 .product-card button {
@@ -90,7 +90,6 @@ main {
     display: flex;
     justify-content: center;
 }
-
 
 
 /* services page */
@@ -124,6 +123,10 @@ main {
     background-color: rgba(172, 255, 255, 0.534);
 }
 
+.service-item img {
+    width: 100%;
+    object-fit: cover;
+}
 /* form styles */
 #form {
     margin-top: 100px;
