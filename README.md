@@ -1,12 +1,13 @@
 # MalkiaGlam
 
-MalkiaGlam is an e-commerce platform that provides beauty products, fashion items, and salon services like nail appointments and hair braiding. It combines online shopping with a simple and effective booking system for beauty treatments. This platform has been created by ***Queen Njoki Waweru***
+MalkiaGlam is an e-commerce platform that provides beauty products and salon services like nail appointments and hair braiding. It combines online shopping with a simple and effective booking system for beauty treatments. This platform has been created by ***Queen Njoki Waweru***
 
 ## Project Overview
 MalkiaGlam is a web-based platform designed to provide beauty enthusiasts with a seamless shopping and booking experience. The platform includes:
-- A **homepage** showcasing featured products.
-- **Service pages** for booking nail salon appointments, hair braiding, makeup, and more.
-- A **shopping cart** for purchasing products.
+- **home page** showcasing featured products.
+- **about page** tells more about the business and the year that it was founded.
+- **Service page** for booking nail salon appointments, hair braiding, makeup, and more.
+- **shopping cart** for purchasing products.
 - **Local storage integration** to persist user data (e.g., cart items, appointments) across sessions.
 
 ## Features
@@ -42,7 +43,8 @@ Follow these steps to set up the project locally:
    - Test changes locally before deploying.
 
 ## **Known Bugs**
--Responsive Design: Some elements may not align perfectly on smaller screens.
+1. Responsive Design: Some elements may not align perfectly on smaller screens.
+2. Backend: still having problem with displaying messages.
  
 ## **Usage**
 - **Homepage (`index.html`):**
@@ -57,11 +59,13 @@ Follow these steps to set up the project locally:
 - Integrate a payment gateway (e.g., Stripe, PayPal) for checkout.
 - Implement a search bar for products and services.
 - Allow customers to leave reviews for products and services.
+- Allow customers to access the items they have added to the cart and delete if they change their minds.
+
 
 ## **Acknowledgments**
 - **Inspiration:** Beauty enthusiasts and e-commerce platforms.
 - **Tools:** Visual Studio Code, Git, GitHub.
-- **Resources:** MDN Web Docs, W3Schools.
+- **Resources:** MDN Web Docs, W3Schools, Google.
 
 ### License
 This project is licensed under the MIT License.
