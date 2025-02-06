@@ -28,8 +28,8 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/MalkiaGlam.git
-   cd MalkiaGlam
+   git clone https://github.com/malkia101/MALKIAGLAM.git
+   cd MALKIAGLAM
 
 2. **Open the Project:**
    - Open the project folder in Visual Studio Code or any code editor.
