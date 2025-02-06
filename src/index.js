@@ -63,10 +63,20 @@ document.addEventListener("DOMContentLoaded", function () {
         appointments.push(appointment);
         localStorage.setItem("appointments", JSON.stringify(appointments));
 
-        alert("Appointment booked successfully!");
+        // Display success message
+        const messageContainer = document.getElementById("appointment-message");
+        messageContainer.textContent = "Appointment booked successfully!";
+        messageContainer.style.display = "block"; 
+
+        // hide the message after 3 seconds
+        setTimeout(() => {
+            messageContainer.style.display = "none";
+        }, 3000); // Hide after 3 seconds
+
         bookingForm.reset();
     });
 });
+
 
 // // scripts.js (linked to
 // document.addEventListener("DOMContentLoaded", function () {
