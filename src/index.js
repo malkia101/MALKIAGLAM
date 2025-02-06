@@ -72,6 +72,12 @@ document.addEventListener("DOMContentLoaded", function () {
             <p>We will send a confirmation email to ${email} for the appointment on ${date} at ${time}.</p>
         `;
         appointmentMessage.style.color = "aqua";
+
+        // Hide the message after 5 seconds
+        setTimeout(() => {
+            appointmentMessage.innerHTML = ''; 
+        }, 5000); 
+
         bookingForm.reset(); 
     });
 });
